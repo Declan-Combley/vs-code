@@ -9,6 +9,7 @@ code --install-extension ritwickdey.liveserver
 code --install-extension markwylde.vscode-filesize
 code --install-extension eamodio.gitlens
 code --install-extension vscodevim.vim
+code --install-extension pkief.material-icon-theme
 
 echo "installed all extensions..."
 
