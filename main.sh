@@ -6,9 +6,9 @@ sudo pacman -Syy && sudo pacman -S code && echo "installation done ..."
 
 code --install-extension Tabnine.tabnine-vscode  
 code --install-extension ritwickdey.liveserver 
-code --instal-extension markwylde.vscode-filesize
-code --instal-extension eamodio.gitlens
-code --instal-extension vscodevim.vim
+code --install-extension markwylde.vscode-filesize
+code --install-extension eamodio.gitlens
+code --install-extension vscodevim.vim
 
 echo "installed all extensions..."
 
