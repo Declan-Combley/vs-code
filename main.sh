@@ -1,5 +1,7 @@
 #!/bin/bash
 
+$PATH=/home/declan/.config/Code - OSS/User 
+
 sudo pacman -Syy && sudo pacman -S code && echo "installation done ..."
 
 code --install-extension Tabnine.tabnine-vscode  
@@ -14,11 +16,6 @@ echo "themes you may like: "
 echo "Material Icon Theme"
 echo "GlassIt-VSC"
 
-cd 
-
 echo "updating settings.json..."
 
-> /home/declan/.config/Code - OSS/User 
-cat settings.json > /home/declan/.config/Code - OSS/User 
-
-echo "done ..."
+> $PATH && cat settings.json > $PATH  && echo "done ..."
