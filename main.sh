@@ -12,10 +12,6 @@ code --instal-extension vscodevim.vim
 
 echo "installed all extensions..."
 
-echo "themes you may like: "
-echo "Material Icon Theme"
-echo "GlassIt-VSC"
-
 echo "updating settings.json..."
 
 > $PATH && cat settings.json > $PATH  && echo "done ..."
