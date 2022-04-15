@@ -1,8 +1,8 @@
 #!/bin/bash
 
-$PATH=/home/declan/.config/Code-OSS/User 
+cd
 
-sudo pacman -Syy && sudo pacman -S code && echo "installation done ..."
+sudo pacman -Syy && sudo pacman -S code & echo "installation done ..."
 
 code --install-extension Tabnine.tabnine-vscode  
 code --install-extension ritwickdey.liveserver 
@@ -15,4 +15,8 @@ echo "installed all extensions..."
 
 echo "updating settings.json..."
 
-> $PATH && cat settings.json > $PATH  && echo "done ..."
+> ".config/Code - OSS/User"
+
+cat vs-code/settings.json > ".config/Code - OSS/User/settings.json"
+
+echo "done ..."
