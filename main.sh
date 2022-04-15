@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$PATH=/home/declan/.config/Code - OSS/User 
+$PATH=/home/declan/.config/Code-OSS/User 
 
 sudo pacman -Syy && sudo pacman -S code && echo "installation done ..."
 
