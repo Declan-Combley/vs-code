@@ -1,20 +1,22 @@
 {
-    "workbench.startupEditor": "none",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "terminal.integrated.fontSize": 20,
+    "files.autoSaveDelay": 1,
     "editor.fontSize": 20,
+    "glassit.alpha": 120,
+
     "editor.smoothScrolling": true,
     "editor.cursorSmoothCaretAnimation": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.scrollbar.vertical": "hidden",
     "editor.minimap.enabled": false,
     "editor.roundedSelection": true,
+    "breadcrumbs.enabled": false,
+
+    "editor.scrollbar.vertical": "hidden",
     "editor.cursorBlinking": "phase",
-    "glassit.alpha": 220,
     "workbench.iconTheme": "material-icon-theme",
     "window.menuBarVisibility": "hidden",
-    "editor.scrollbar.verticalScrollbarSize": 0,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1,
-    "breadcrumbs.enabled": false,
-    "terminal.integrated.fontSize": 20
+    "workbench.startupEditor": "none"
 }
