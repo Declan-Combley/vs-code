@@ -2,7 +2,7 @@
 
 cd
 
-sudo pacman -Syy && sudo pacman -S code & echo "installation done ..."
+sudo pacman -Syy; sudo pacman -S code && echo "installation done ..."
 
 code --install-extension Tabnine.tabnine-vscode  
 code --install-extension ritwickdey.liveserver 
