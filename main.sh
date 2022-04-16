@@ -15,8 +15,6 @@ echo "installed all extensions..."
 
 echo "updating settings.json..."
 
-> ".config/Code - OSS/User"
-
 cat vs-code/settings.json > ".config/Code - OSS/User/settings.json"
 
 echo "done ..."
