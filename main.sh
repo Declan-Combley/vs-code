@@ -1,8 +1,13 @@
 #!/bin/bash
 
+path=$(pwd)
+
 cd
 
-sudo pacman -Syy; sudo pacman -S code && echo "installation done ..."
+yes | sudo pacman -Syy 
+
+echo "installing code"
+yes | sudo pacman -S code 
 
 code --install-extension Tabnine.tabnine-vscode  
 code --install-extension ritwickdey.liveserver 
@@ -15,6 +20,6 @@ echo "installed all extensions..."
 
 echo "updating settings.json..."
 
-cat vs-code/settings.json > ".config/Code - OSS/User/settings.json"
+cat path/settings.json > ".config/Code - OSS/User/settings.json"
 
 echo "done ..."
