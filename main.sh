@@ -20,6 +20,6 @@ echo "installed all extensions..."
 
 echo "updating settings.json..."
 
-cat $path/settings.json > .config/Code - OSS/User/settings.json
+cat $path/settings.json > '.config/Code - OSS/User/settings.json'
 
 echo "done ..."
